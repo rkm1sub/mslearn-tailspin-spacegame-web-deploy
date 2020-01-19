@@ -84,3 +84,4 @@ stages:
               azureSubscription: 'Microsoft Azure Sponsorship'
               appName: '$(WebAppName)'
               package: '$(Pipeline.Workspace)/drop/$(buildConfiguration)/*.zip'
+              
